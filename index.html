@@ -489,6 +489,7 @@
         <form class="box-form">
           <div class="box-form-cont">
             <label class="l-name" for="user-name">
+              Name
               <input
                 class="input-name"
                 type="text"
@@ -501,6 +502,7 @@
             </label>
           </div>
           <div class="box-form-cont">
+            Phone
             <label class="l-phone" for="user-phone">
               <input
                 class="input-phone"
@@ -512,6 +514,7 @@
           </div>
           <div class="box-form-cont">
             <label class="l-email" for="user-email">
+              Email
               <input
                 class="input-phone"
                 type="text"
@@ -520,6 +523,33 @@
               />
             </label>
           </div>
+          <div class="thote4">
+            <label for="user-comment"> Comment </label>
+            <textarea
+              class="comment-text"
+              name="user-comment"
+              id="user-comment"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="checkbox">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              vis
+            />
+            <label class="label-privacy" for="user-privacy">
+              I accept the terms and conditions of the
+              <span class="label-privacy-span">
+                <a class="polycy" href="">Privacy Policy</a></span
+              >
+            </label>
+          </div>
+          <button class="button-send">Send</button>
         </form>
       </div>
     </div>
