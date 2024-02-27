@@ -488,44 +488,51 @@
         </p>
         <form class="box-form">
           <div class="box-form-cont">
-            <label class="l-name" for="user-name">
-              Name
+            <label class="labelbox" for="user-name"> Name</label>
+            <div class="div-input">
               <input
-                class="input-name"
+                class="input"
                 type="text"
                 id="user-name"
                 name="user-name"
               />
               <svg width="18" height="24" class="box-button-icon">
-                <!-- <use href="./images/icons.svg#icon-antenna-1"></use> -->
+                <use href="./images/icons.svg#icon-antenna-1"></use>
               </svg>
-            </label>
+            </div>
           </div>
           <div class="box-form-cont">
-            Phone
-            <label class="l-phone" for="user-phone">
+            <label class="labelbox" for="user-phone"> Phone </label>
+            <div>
               <input
-                class="input-phone"
+                class="input"
                 type="text"
                 id="user-phone"
                 name="user-phone"
               />
-            </label>
+              <svg width="18" height="24" class="box-button-icon">
+                <use href="./images/icons.svg#icon-antenna-1"></use>
+              </svg>
+            </div>
           </div>
           <div class="box-form-cont">
-            <label class="l-email" for="user-email">
-              Email
+            <label class="labelbox" for="user-email"> Email </label>
+            <div>
               <input
-                class="input-phone"
+                class="input"
                 type="text"
                 id="user-email"
                 name="user-email"
               />
-            </label>
+              <svg width="18" height="24" class="box-button-icon">
+                <use href="./images/icons.svg#icon-antenna-1"></use>
+              </svg>
+            </div>
           </div>
           <div class="thote4">
             <label for="user-comment"> Comment </label>
             <textarea
+              placeholder="Text input"
               class="comment-text"
               name="user-comment"
               id="user-comment"
@@ -540,7 +547,6 @@
               id="user-privacy"
               value="true"
               name="user-privacy"
-              vis
             />
             <label class="label-privacy" for="user-privacy">
               I accept the terms and conditions of the
