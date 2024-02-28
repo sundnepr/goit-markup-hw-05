@@ -675,6 +675,9 @@ body {
 .input:focus {
   border-color: #4d5ae5;
 }
+.input-text{
+  margin-bottom: 16px
+}
 
 .comment-text {
   width: 100%;
@@ -698,7 +701,7 @@ body {
 .checkbox {
   margin-bottom: 24px;
 }
-.check-input:checked [.label-privacy-span]{
+#.check-input:checked + .label-privacy .label-privacy-span{
   background-color:#404bbf; 
   border: none; 
   fill: #F4F4FD;
