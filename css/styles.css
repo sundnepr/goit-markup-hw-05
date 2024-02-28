@@ -698,7 +698,7 @@ body {
 .checkbox {
   margin-bottom: 24px;
 }
-.check-input:checked .label-privacy-span{
+.check-input:checked [.label-privacy-span]{
   background-color:#404bbf; 
   border: none; 
   fill: #F4F4FD;
