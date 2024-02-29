@@ -659,7 +659,6 @@ body {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  fill: #4d5ae5;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -684,6 +683,10 @@ body {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #ffffff;
+}
+.input {
+  color: #000000;
 }
 .input:focus {
   border-color: #4d5ae5;
