@@ -476,10 +476,8 @@
         </div>
       </div>
     </footer>
-    <div class="box">
-      
+    <div class="box is-open">
       <div class="box-window">
-      
         <button type="button" class="box-button-close">
           <svg width="8" height="8" class="box-button-icon">
             <use href="./images/icons.svg#icon-close-black"></use>
@@ -489,9 +487,8 @@
           Leave your contacts and we will call you back
         </p>
         <form class="box-form">
-          
           <div class="box-form-cont">
-            <label class="labelbox" for="user-name"> Name</label>
+            <label class="labelbox" for="user-name">Name</label>
             <div class="div-input">
               <input
                 class="input"
@@ -505,11 +502,11 @@
             </div>
           </div>
           <div class="box-form-cont">
-            <label class="labelbox" for="user-phone"> Phone </label>
+            <label class="labelbox" for="user-phone">Phone </label>
             <div class="div-input">
               <input
                 class="input"
-                type="text"
+                type="tel"
                 id="user-phone"
                 name="user-phone"
               />
@@ -519,11 +516,11 @@
             </div>
           </div>
           <div class="box-form-cont">
-            <label class="labelbox" for="user-email"> Email </label>
+            <label class="labelbox" for="user-email">Email </label>
             <div class="div-input">
               <input
                 class="input"
-                type="text"
+                type="email"
                 id="user-email"
                 name="user-email"
               />
@@ -533,7 +530,7 @@
             </div>
           </div>
           <div class="input-text">
-            <label class="labelbox" for="user-comment"> Comment </label>
+            <label class="labelbox" for="user-comment">Comment </label>
             <textarea
               placeholder="Text input"
               class="comment-text"
@@ -544,19 +541,21 @@
             ></textarea>
           </div>
           <div class="checkbox">
-            <input  class="check-input visually-hidden"
+            <input
+              class="check-input visually-hidden"
               type="checkbox"
               id="user-privacy"
               value="true"
               name="user-privacy"
             />
             <label class="label-privacy" for="user-privacy">
-             <span class="label-privacy-span" id="one">
+              <span class="label-privacy-span" id="one">
                 <svg class="checkbox-icon" height="8" width="10">
-                   <use href="./images/icons.svg#icon-Vector"></use>
+                  <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
-            </span>
-                        I accept the terms and conditions of the <a class="polycy" href="">Privacy Policy</a>
+              </span>
+              I accept the terms and conditions of the
+              <a class="polycy" href="">Privacy Policy</a>
             </label>
           </div>
           <button class="button-send">Send</button>
