@@ -503,6 +503,9 @@ body {
 .footer-social-icon {
   fill: #f4f4fd;
 }
+.subscribe {
+  margin-left: auto;
+}
 
 .social-link:hover,
 :focus {
@@ -554,10 +557,6 @@ body {
   border: none;
   border-radius: 4px;
 }
-
-/* #myform-button:hover + .box .is-open {
-  visibility: visible;
-} */
 
 .myform-button-icon {
   margin-left: 16px;
@@ -660,6 +659,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #000000;
 }
 
 .labelbox {
