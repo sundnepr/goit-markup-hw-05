@@ -602,10 +602,6 @@ body {
 :focus {
   background-color: #404bbf;
   border: none;
-}
-
-.box-button-close:hover,
-:focus .box-button-icon {
   fill: #ffffff;
 }
 
