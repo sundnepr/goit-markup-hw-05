@@ -603,8 +603,8 @@ body {
   background-color: #404bbf;
   border: none;
 }
-.box-button-close-svg:focus,
-.box-button-close-svg:hover {
+.box-button-close:focus,
+.box-button-close:hover + .box-button-close-svg {
   fill: #ffffff;
 }
 
